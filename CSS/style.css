@@ -14,3 +14,19 @@ img {
     background-color:#0056b3;
     border-color: #0056b3;
 }
+
+body{
+    background-image: url(../Images/andrew-seaman-lzg7pY1ZhLo-unsplash.jpg);
+    /* background-position: center; */
+    background-size: cover;
+}
+
+.backgroundOpac{
+    opacity: 80%;
+}
+
+#aboutMe{
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 75px;
+}
