@@ -21,6 +21,16 @@ body{
     background-size: cover;
 }
 
+form{
+    background-color: #e9ecef;
+    opacity: 90%;
+    margin: 50px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #0056b3;
+    border-width: 5px;
+}
+
 .backgroundOpac{
     opacity: 80%;
 }
@@ -43,4 +53,16 @@ body{
 #aboutMeimg{
     height: 150px;
     width: 150px;
+}
+
+.jumbotron-fluid{
+    opacity: 80%;
+}
+
+.jumbotron {
+    padding: 3.5rem 2rem;
+}
+
+.jumboPad{
+    padding: 4.2rem 2rem;
 }
