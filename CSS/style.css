@@ -2,3 +2,15 @@ img {
     width: 30px;
     height: 30px;
 }
+
+.btncolor{
+    background-color: #343a40;
+    color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color:#0056b3;
+    border-color: #0056b3;
+}
