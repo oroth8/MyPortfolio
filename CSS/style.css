@@ -30,3 +30,17 @@ body{
     text-decoration: underline;
     font-size: 75px;
 }
+
+.aboutMeContainer{
+    background-color: #e9ecef;
+    opacity: 80%;
+}
+
+#aboutMeh1{
+    font-size: 32px;
+}
+
+#aboutMeimg{
+    height: 150px;
+    width: 150px;
+}
