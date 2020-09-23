@@ -1,4 +1,4 @@
-img {
+#logo {
     width: 30px;
     height: 30px;
 }
@@ -39,6 +39,10 @@ form{
     font-style: italic;
     text-decoration: underline;
     font-size: 75px;
+
+    text-decoration: underline;
+  -webkit-text-decoration-color: #0056b3; /* safari still uses vendor prefix */
+  text-decoration-color: #0056b3;
 }
 
 .aboutMeContainer{
@@ -65,4 +69,29 @@ form{
 
 .jumboPad{
     padding: 4.2rem 2rem;
+}
+
+.portPics{
+    height: 250px;
+    width: 250px;
+    padding: 25px;
+    /* margin-left: 45px; */
+}
+
+.portP{
+    text-align: center;
+}
+
+.portContainer{
+    background-color: #e9ecef;
+    margin-top: 25px;
+}
+
+.row{
+    margin-left: 10px;
+}
+
+#absp{
+
+    margin-left: 55px;
 }
