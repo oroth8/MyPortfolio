@@ -1,3 +1,19 @@
+body{
+    background-image: url(../Images/andrew-seaman-lzg7pY1ZhLo-unsplash.jpg);
+    /* background-position: center; */
+    background-size: cover;
+}
+
+form{
+    background-color: #e9ecef;
+    opacity: 90%;
+    margin: 50px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #0056b3;
+    border-width: 5px;
+}
+
 #logo {
     width: 30px;
     height: 30px;
@@ -15,21 +31,7 @@
     border-color: #0056b3;
 }
 
-body{
-    background-image: url(../Images/andrew-seaman-lzg7pY1ZhLo-unsplash.jpg);
-    /* background-position: center; */
-    background-size: cover;
-}
 
-form{
-    background-color: #e9ecef;
-    opacity: 90%;
-    margin: 50px;
-    padding: 10px;
-    border-style: solid;
-    border-color: #0056b3;
-    border-width: 5px;
-}
 
 .backgroundOpac{
     opacity: 80%;
@@ -39,10 +41,9 @@ form{
     font-style: italic;
     text-decoration: underline;
     font-size: 75px;
-
     text-decoration: underline;
-  -webkit-text-decoration-color: #0056b3; /* safari still uses vendor prefix */
-  text-decoration-color: #0056b3;
+    -webkit-text-decoration-color: #0056b3;
+    text-decoration-color: #0056b3;
 }
 
 .aboutMeContainer{
@@ -75,12 +76,15 @@ form{
     height: 250px;
     width: 250px;
     padding: 25px;
+    border-style: solid;
+    border-width: .5px;
+    border-color: #0056b3;
     /* margin-left: 45px; */
 }
 
-.portP{
+/* .portP{
     text-align: center;
-}
+} */
 
 .portContainer{
     background-color: #e9ecef;
@@ -88,13 +92,13 @@ form{
 }
 
 .row{
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
-#absp{
+/* #absp{
 
     margin-left: 55px;
-}
+} */
 
 .cardMargin{
     margin-top: 10px;
