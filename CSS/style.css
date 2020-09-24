@@ -17,6 +17,12 @@ form{
     border-width: 5px;
 }
 
+footer{
+    background-color: #e9ecef;
+    opacity: 80%;
+    margin-top: 50px;
+}
+
 /* (nav)logo sizing for nav bar */
 #logo {
     width: 30px;
