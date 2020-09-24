@@ -1,9 +1,12 @@
+
+/* background image and formating */
 body{
     background-image: url(../Images/andrew-seaman-lzg7pY1ZhLo-unsplash.jpg);
     /* background-position: center; */
     background-size: cover;
 }
 
+/* formating for form on contact.html */
 form{
     background-color: #e9ecef;
     opacity: 90%;
@@ -14,29 +17,24 @@ form{
     border-width: 5px;
 }
 
+/* (nav)logo sizing for nav bar */
 #logo {
     width: 30px;
     height: 30px;
 }
-
+/* (nav) button colors */
 .btncolor{
     background-color: #343a40;
     color: #0056b3;
     border-color: #0056b3;
 }
-
+/* (nav) button outline and color */
 .btn-outline-success:hover {
     color: #fff;
     background-color:#0056b3;
     border-color: #0056b3;
 }
-
-
-
-.backgroundOpac{
-    opacity: 80%;
-}
-
+/* "About me" formating and styling on index.html */
 #aboutMe{
     font-style: italic;
     text-decoration: underline;
@@ -46,20 +44,29 @@ form{
     text-decoration-color: #0056b3;
 }
 
+/*background color for the about me on index.html  */
 .aboutMeContainer{
     background-color: #e9ecef;
-    opacity: 80%;
+    /* opacity: 80%; */
 }
 
+/* aboutme <h1> sizing on index.html */
 #aboutMeh1{
     font-size: 32px;
 }
 
+/* about me img on index.html */
 #aboutMeimg{
     height: 150px;
     width: 150px;
 }
 
+/* card formating on index.html */
+.cardMargin{
+    margin-top: 10px;
+}
+
+/* --Start-- formating for jumbotron */
 .jumbotron-fluid{
     opacity: 80%;
 }
@@ -71,7 +78,9 @@ form{
 .jumboPad{
     padding: 4.2rem 2rem;
 }
+/* --End--formatting for jumbotron */
 
+/* formating for portfolio pics on portfolio.html */
 .portPics{
     height: 250px;
     width: 250px;
@@ -82,24 +91,9 @@ form{
     /* margin-left: 45px; */
 }
 
-/* .portP{
-    text-align: center;
-} */
-
+/* portfolio picture container color on portfolio.html */
 .portContainer{
     background-color: #e9ecef;
     margin-top: 25px;
 }
 
-.row{
-    /* margin-left: 10px; */
-}
-
-/* #absp{
-
-    margin-left: 55px;
-} */
-
-.cardMargin{
-    margin-top: 10px;
-}
